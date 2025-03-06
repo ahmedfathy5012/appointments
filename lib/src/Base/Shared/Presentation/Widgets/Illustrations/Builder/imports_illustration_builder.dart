@@ -1,0 +1,10 @@
+import 'package:mobile/src/Base/Core/Constants/strings/assets.dart';
+import 'package:mobile/src/Base/Core/Utils/Extensions/screen_spaces_extension.dart';
+  import 'package:mobile/src/Base/Shared/Presentation/Widgets/Builders/conditional_builder.dart';
+import 'package:mobile/src/Base/Shared/Presentation/Widgets/GeneralWidgets/Buttons/Basic/button_default.dart';
+import 'package:mobile/src/Base/Shared/Presentation/Widgets/GeneralWidgets/Buttons/Customizable/imports_customizable.dart';
+import 'package:mobile/src/Base/Shared/Presentation/Widgets/GeneralWidgets/Text/custom_text_lib.dart';
+import 'package:mobile/src/Base/Shared/Presentation/Widgets/Illustrations/icon_builder.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+part 'Illustration_page_builder.dart';
