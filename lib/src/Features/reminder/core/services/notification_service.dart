@@ -20,6 +20,9 @@ class NotificationService {
     final InitializationSettings settings =
     InitializationSettings(android: androidSettings);
 
+    flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<
+        AndroidFlutterLocalNotificationsPlugin>()?.requestNotificationsPermission();
+
     await flutterLocalNotificationsPlugin.initialize(settings);
   }
 
